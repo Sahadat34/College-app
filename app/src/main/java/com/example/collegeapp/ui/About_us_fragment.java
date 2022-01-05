@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 
 /**
  * A simple {@link Fragment} subclass.

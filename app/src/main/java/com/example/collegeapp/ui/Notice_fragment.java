@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.example.collegeapp.notice.NoticeAdapter;
 import com.example.collegeapp.notice.NoticeModel;
 import com.google.firebase.database.DataSnapshot;

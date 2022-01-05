@@ -7,9 +7,8 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.ProgressBar;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 
 public class DepartmentDetailsActivity extends AppCompatActivity {
     WebView dept_details;

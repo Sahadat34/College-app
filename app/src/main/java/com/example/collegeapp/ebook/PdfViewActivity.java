@@ -2,18 +2,16 @@ package com.example.collegeapp.ebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.github.barteksc.pdfviewer.PDFView;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class PdfViewActivity extends AppCompatActivity {

@@ -3,7 +3,7 @@ package com.example.collegeapp;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.github.chrisbanes.photoview.PhotoView;
 import com.squareup.picasso.Picasso;
 

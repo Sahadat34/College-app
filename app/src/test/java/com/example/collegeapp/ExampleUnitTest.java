@@ -1,4 +1,4 @@
-package com.example.collageapp;
+package com.example.collegeapp;
 
 import org.junit.Test;
 

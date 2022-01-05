@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.example.collegeapp.faculty.TeacherDataAdapter;
 import com.example.collegeapp.faculty.TeacherModel;
 import com.google.firebase.database.DataSnapshot;

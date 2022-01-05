@@ -16,7 +16,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.example.collegeapp.ebook.PdfActivity;
 import com.example.collegeapp.gallery.GalleryActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;

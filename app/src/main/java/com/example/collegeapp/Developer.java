@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 
 public class Developer extends AppCompatActivity {
 

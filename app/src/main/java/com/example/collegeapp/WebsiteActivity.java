@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 
 public class WebsiteActivity extends AppCompatActivity {
     String webUrl = "https://bitm.org.in/";

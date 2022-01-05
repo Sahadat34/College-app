@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.collageapp.R;
+import com.example.collegeapp.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -89,13 +89,13 @@ public class GalleryActivity extends AppCompatActivity {
                     }
                     GalleryAdapter adapter = new GalleryAdapter(GalleryActivity.this,newList);
                     adapter.setHasStableIds(true);
-                    treePlantation.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
-                    treePlantation.setAdapter(adapter);
+                    fest.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
+                    fest.setAdapter(adapter);
                 }
                 GalleryAdapter adapter = new GalleryAdapter(GalleryActivity.this,imageUrl);
                 adapter.setHasStableIds(true);
-                treePlantation.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
-                treePlantation.setAdapter(adapter);
+                fest.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
+                fest.setAdapter(adapter);
             }
 
             @Override
@@ -127,13 +127,13 @@ public class GalleryActivity extends AppCompatActivity {
                     }
                     GalleryAdapter adapter = new GalleryAdapter(GalleryActivity.this,newList);
                     adapter.setHasStableIds(true);
-                    fest.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
-                    fest.setAdapter(adapter);
+                    treePlantation.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
+                    treePlantation.setAdapter(adapter);
                 }
                 GalleryAdapter adapter = new GalleryAdapter(GalleryActivity.this,imageUrl);
                 adapter.setHasStableIds(true);
-                fest.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
-                fest.setAdapter(adapter);
+                treePlantation.setLayoutManager(new LinearLayoutManager(GalleryActivity.this,LinearLayoutManager.HORIZONTAL,true));
+                treePlantation.setAdapter(adapter);
             }
 
             @Override
