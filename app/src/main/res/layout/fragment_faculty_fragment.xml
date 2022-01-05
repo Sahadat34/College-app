@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context="com.example.collegeapp.ui.Faculty_fragment">
+
+   <ScrollView
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:orientation="vertical"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:gravity="center"
+             android:text="Computer Science"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginHorizontal="8dp"
+             android:background="#706A6A" />
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/cse_recycler"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:nestedScrollingEnabled="false"
+             android:visibility="gone" />
+
+         <LinearLayout
+             android:id="@+id/cse_noData"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No data Available"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:gravity="center"
+             android:text="Civil Engineering"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginHorizontal="8dp"
+             android:background="#706A6A" />
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/civil_recycler"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:nestedScrollingEnabled="false"
+             android:visibility="gone" />
+
+         <LinearLayout
+             android:id="@+id/civil_noData"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No data Available"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+         </LinearLayout>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:gravity="center"
+             android:text="Mechanical Engineerin"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginHorizontal="8dp"
+             android:background="#706A6A" />
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/mechanical_recycler"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:nestedScrollingEnabled="false"
+             android:visibility="gone" />
+
+         <LinearLayout
+             android:id="@+id/mechanical_noData"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No data Available"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:gravity="center"
+             android:text="Electrical Engineering"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginHorizontal="8dp"
+             android:background="#706A6A" />
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/electrical_recycler"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:nestedScrollingEnabled="false"
+             android:visibility="gone" />
+
+         <LinearLayout
+             android:id="@+id/electrical_noData"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No data Available"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+         </LinearLayout>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:gravity="center"
+             android:text="Electronics Engineering"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:layout_marginHorizontal="8dp"
+             android:background="#706A6A" />
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:id="@+id/electronics_recycler"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:nestedScrollingEnabled="false"
+             android:visibility="gone" />
+
+         <LinearLayout
+             android:id="@+id/electronics_noData"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No data Available"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+         </LinearLayout>
+
+      </LinearLayout>
+   </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

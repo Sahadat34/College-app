@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BitmApp</string>
+    <string name="home">Home</string>
+
+    <string name="faculty">Faculty</string>
+    <string name="about">About us</string>
+    <string name="gallery">Gallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">start</string>
+    <string name="close">close</string>
+    <string name="welcome">WELCOME TO BENGAL INSTITUTE OF TECHNOLOGY and MANAGEMENT</string>
+    <string name="about_bitm">Inspired by the teachings of Tagore, Bengal Institute of Technology and Management, Santiniketan started its journey from the year 2001.
+    The oldest campus under the Aegis of Camellia Group, the institute has already put its mark in providing quality-engineering education in Eastern India since its inception.
+    The vision of the Managing Trustee was to impart state of the art technical education to the students blended with the values and ethics of Gurudev within the serene outskirts of nature. The campus is thus situated in Santiniketan, where the pedagogy is celebrated all across the world.
+    Spread across a campus of more than sixty (60) acres of land area, Bengal Institute of Technology and Management, Santiniketan offers modern day professional courses with excellence in multi disciplinary modules.
+    Bengal Institute of Technology and Management, Santiniketan houses one of the latest technical laboratories with up to date Infrastructure to cater to modern day teaching need. The teaching resource of the institute is an amalgamation of academic and Industry experience</string>
+    <string name="about_bitm2">Inspired by the teachings of Tagore, Bengal Institute of Technology and Management, Santiniketan started its journey from the year 2001.
+    The oldest campus under the Aegis of Camellia Group, the institute has already put its mark in providing quality-engineering education in Eastern India since its inception.</string>
+    <string name="mission">Education is the manifestation of perfection already in man” , proclaims Indian Philosophy. For this purpose a teacher is to remove all obstructions from the way. The obstructions when removed will manifest in the development of complete personality, complete perfection. Education in this spirit that not only enriches the human mind but also enables one to stand on his own feet. With this end in view, BITM shall thrive for imparting such man- making education whereby our students can be ideal citizens to face the ordeals of life displaying flair of courage, character and leadership.</string>
+    <string name="vision">With the said vision in mind or motto BITM shall not only be imparting world class scientific and technical knowledge amongst out students through our dedicated faculty but also to lay emphasis on disseminating knowledge among them through seminars, exhibitions, discussions and participation in debates in other Institutions as well as training in Industrial Houses / Projects.</string>
+    <string name="title_activity_notice_details">NoticeDetailsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="about_me">Android App Developer, in this app i have done CRUD operation with Firebase Database,Hope you guys Like this Project</string>
+</resources>
